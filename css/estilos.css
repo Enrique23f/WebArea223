@@ -16,6 +16,22 @@
     display:block;
 }
 
+.imagentabla2 {
+    height: 280px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+
+.imagentabla3 {
+    height: 180px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+
 
 .fondologo {
     background: linear-gradient(0deg, rgba(79,79,79,1) 0%, rgba(56,56,56,1) 100%);
@@ -29,8 +45,8 @@
 }
 
 .tablablancofocus {
-   background-image:url("../imagenes/naranja.png");
-   border: 1px solid #ea9010
+   background-color: #e9692c;
+   border: 1px solid #e9692c;
 }
 .tablesecciones {
 	   border: 1px solid rgb(255, 255, 255);
@@ -60,11 +76,13 @@
     margin-top:10px;
   margin-left: auto;
   margin-right: auto;
+   
   border:1px solid black;
   background-color:white;
   width:950px;
   height:1000px;
   border-radius: 30px; /* Bordes circulares*/
+  
 }
 
 .tablaformulario {
@@ -78,11 +96,32 @@
   border-radius: 30px; /* Bordes circulares*/
 }
 
+.tablaformulario2 {
+    margin-top:5px;
+  margin-left: auto;
+  margin-right: auto;
+  border:1px solid black;
+  background-color:white;
+  width:900px;
+  height:700px;
+  border-radius: 30px; /* Bordes circulares*/
+  
+}
+
+.textarea {
+    resize: none;
+}
 a {
     font-family: 'Nunito Sans', sans-serif;
     color:black;
     text-decoration:none;
     
+}
+
+.asinclick {
+    font-family: 'Nunito Sans', sans-serif;
+    color:black;
+    user-select: none;
 }
 
 .fondobusqueda {
@@ -160,37 +199,34 @@ a {
     font-family: 'Nunito Sans', sans-serif;
 	}
 	
-.discord {
-	text-align:center;
-	vertical-align:middle;
-	float:right;
-}
 
 #page-container {
-    position: relative;
-    min-height: 100vh;
-  }
-
-#content-wrap {
-    padding-bottom: auto;    /* altura del footer */
-  }
-
-footer {
+        position: relative;
+        min-height: 100vh;
+      }
     
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: lightcyan;
-    color: black;
-    text-align: center;
-    position: absolute;
-  }
 
 
-.discord {
-   text-align:center;
-   vertical-align: middle;
-  }
+
+
+
+ footer {
+    
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: lightcyan;
+        color: black;
+        text-align: center;
+        position: absolute;
+      }
+
+
+li {
+      
+    list-style-position:inside;
+    margin-bottom:10px;
+    }
 
 .borde {
     padding-left:20px;
@@ -198,8 +234,25 @@ footer {
     padding-right:20px;
     padding-bottom:10px;
     text-align:center;
+    
 }
 
 .texto1 {
     font-size: 20px;
+}
+
+.botonNavbar {
+    width: 100%;
+    height: 100%;
+}
+
+.botonNavbar:hover {
+    width: 100%;
+    height: 100%;
+    color:white;
+}
+
+.tdh:hover{
+    background-color: #e9692c;
+    border: 1px solid #e9692c;
 }
